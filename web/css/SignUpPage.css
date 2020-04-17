@@ -1,0 +1,101 @@
+body {
+    padding-top: 5%;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: Copperplate;
+    font-weight: 100;
+    color: #1F1F1F;
+}
+#error {
+    text-align: center;
+    font-family: Copperplate;
+    font-weight: 100;
+    color: #FF3B23;
+}
+form {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    font-family: Copperplate;
+    font-weight: 100;
+    font-size: 20px;
+    width: 100%;
+}
+td {
+    padding-bottom: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+.fields {
+    text-align: left;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+}
+
+.button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#signup, #login {
+    border: 1px solid #54A3FF;
+    border-radius: 20px;
+    color: #004EAB;
+    background-color: #E7F2FF;
+    width: 200px;
+}
+
+#signupLink {
+    font-family: Copperplate;
+    font-weight: 100;
+    font-size: 20px;
+    color: #0057A6;
+    text-decoration: none;
+}
+
+#signupLink:hover {
+    font-size: 24px;
+    color: #43A6FF;
+}
+
+*:focus {
+    outline: none;
+}
+
+#signup:focus {
+    width: 250px;
+    font-size: 28px;
+}
+
+#signup:hover {
+    color: #005F73;
+    background-color: #A3CDFF;
+}
+
+#login:focus {
+    width: 250px;
+    font-size: 28px;
+}
+
+#login:hover {
+    color: #005F73;
+    background-color: #A3CDFF;
+}
+
+::placeholder {
+  color: #E3E3E3;
+  font-size: 20px;
+}

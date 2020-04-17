@@ -1,0 +1,61 @@
+body {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+h1, h2 {
+    text-align: center;
+    font-family: Copperplate;
+    font-weight: 100;
+    color: #1F1F1F;
+}
+h2 {
+    margin-top: 3%;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-family: Copperplate;
+    font-weight: 100;
+    font-size: 20px;
+    width: 80%;
+}
+td, th {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    background-color: #F6F6F6;
+    vertical-align : middle;
+}
+th {
+    font-weight: bold;
+    text-align: center;
+    background-color: #DEF0F3;
+}
+
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#choose {
+    font-family: Copperplate;
+    font-weight: 100;
+    font-size: 22px;
+    border: 1px solid #54A3FF;
+    border-radius: 20px;
+    color: #004EAB;
+    background-color: #E7F2FF;
+    width: 200px;
+}
+*:focus {
+    outline: none;
+}
+
+#choose:hover {
+    color: #005F73;
+    background-color: #A3CDFF;
+}
